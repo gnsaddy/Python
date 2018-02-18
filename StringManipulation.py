@@ -27,6 +27,3 @@ print(alphabet[3:10])
 # reverse indexing of string
 print(alphabet[-0])  # reverse indexing always start from [-1] index
 print(alphabet[-18])
-
-
-print(alphabet.count('a', 1, 24))
