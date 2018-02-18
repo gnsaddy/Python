@@ -24,6 +24,10 @@ print(alphabet[15])
 print(alphabet[10])
 print(alphabet[0:23])  # [start:end] of the string which we want
 print(alphabet[3:10])
+print(alphabet[0] + alphabet[20])
 # reverse indexing of string
 print(alphabet[-0])  # reverse indexing always start from [-1] index
 print(alphabet[-18])
+# slicing of string
+print(firstName[1:3])
+print(firstName[0:])
