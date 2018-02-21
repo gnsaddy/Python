@@ -9,7 +9,7 @@ print(fractions.Fraction(1000, 245))
  representation.Fortunately, Fraction allows us to instantiate with string as well. 
  This is the preferred options when using decimal numbers.'''
 
-print(fractions.Fraction(2.1)) # as floating number
+print(fractions.Fraction(2.1))  # as floating number
 
 print(fractions.Fraction('2.1'))  # as a string
 print(fractions.Fraction('1023.12'))
