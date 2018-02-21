@@ -36,6 +36,6 @@ print(min(string4))
 print(string.isalpha())
 print(string4.isalpha())
 
-# lowe()
+# lower()
 string5 = "ADITYA"
 print(string5.lower())
