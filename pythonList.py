@@ -4,6 +4,8 @@ print(initial_list)
 # list with some value
 data_analysis_language = ['R', 'Python', 'SAS', 'Scala']
 print(data_analysis_language)
+data_analysis_language.append('java')
+print(data_analysis_language)
 # printing through index number
 print(data_analysis_language[0])
 print(data_analysis_language[1], data_analysis_language[2], data_analysis_language[3])
@@ -27,3 +29,7 @@ print(''.join(b_senetence))
 print('----'.join(b_senetence))
 c_sentence = ['hi', 'there', 'how', 'are', 'you', '   ??   ']
 print('   &   '.join(c_sentence))
+# multiplaction of list
+list_a = ["hi"]
+print(list_a * 10)
+print(list_a + list_a)
