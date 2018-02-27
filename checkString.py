@@ -22,3 +22,8 @@ print(name2[:9])
 # length of a string
 address = "New ashok nagar new Delhi"
 print(len(address))
+#
+A = "Data"
+B = "Analysis"
+C = "Pandas"
+print("{0} {1} using {2}".format(A, B, C))

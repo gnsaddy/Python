@@ -31,3 +31,16 @@ print(alphabet[-18])
 # slicing of string
 print(firstName[1:3])
 print(firstName[0:])
+# rstrip() - removes whitespace from the end/right
+some_setence = "there is a space at the end         "
+print(some_setence.rstrip())
+# lstrip() - removes whitespace from the start
+some_setence1 = "                  there is a space at the start"
+print(some_setence1.lstrip())
+# strip() - removes whitespace from both end
+some_setence2 = "      the is some whitespace        "
+print(some_setence2.strip())
+# skipping the string
+no = '123456789'
+print(no[1::2], "enen numbers")
+print(alphabet[0::2]) #skiping by 2
