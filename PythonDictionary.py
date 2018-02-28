@@ -24,3 +24,5 @@ del new_dict['state']
 print(new_dict)
 # dict length
 print(len(dict2))
+dict3 = sorted(list(dict2))
+print(dict3)
