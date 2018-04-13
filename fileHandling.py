@@ -1,0 +1,8 @@
+file_pointer = open("E:\zp.txt", 'r+')
+print("File content before writing")
+print(file_pointer.read())
+file_pointer.write(" Python is awesome.")
+print("File content after writing ")
+file_pointer.seek(0)
+print(file_pointer.read())
+file_pointer.close()
